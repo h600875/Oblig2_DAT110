@@ -45,7 +45,6 @@ public class Broker extends Stopable {
 				maxaccept--;
 				
 				if (maxaccept < 1) {
-					
 					super.doStop();
 				}
 			}
